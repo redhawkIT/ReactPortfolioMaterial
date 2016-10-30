@@ -50,7 +50,7 @@ body {
 }
 
 .subHeader {
-    font-size: 20px;
+    font-size: 31px;
     padding: 0 16px;
     line-height: 64px;
     color: #fff;
@@ -60,14 +60,22 @@ body {
 .link {
     display: block;
     transition: .3s;
+    text-decoration: none;
 }
 
 .link.active {
-    background-color: rgba(0, 0, 0, 0.1)
+    background-color: rgba(0, 0, 0, 0.1);
+    text-decoration: none;
 }
 
 .muidocs-icon-custom-github:before {
 	content: "\e625";
+  font-size: 35px;
+}
+
+.AppBar__Menu {
+  height: 32px !important;
+  width: 32px !important;
 }
 
 @font-face {
