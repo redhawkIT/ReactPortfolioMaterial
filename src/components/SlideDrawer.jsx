@@ -22,7 +22,7 @@ const SlideDrawer = ({handleToggle, open, setTitle}) => (
         <ListItem primaryText="Projects" leftIcon={<Project/>} onTouchTap={e => setTitle('Projects')}/>
       </Link>
       <Link to="/about" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="About" leftIcon={<About/>} onTouchTap={e => setTitle('About')}/>
+        <ListItem primaryText="About Me" leftIcon={<About/>} onTouchTap={e => setTitle('About')}/>
       </Link>
       <Link to="/info" className='link' activeClassName="active" onTouchTap={handleToggle}>
         <ListItem primaryText="Info" leftIcon={<Info/>} onTouchTap={e => setTitle('Info')}/>
