@@ -4,8 +4,13 @@ class Info extends Component {
 
   render() {
     return (
-      <div>
-
+      <div className="row center-xs">
+          <div className="col-xs-6">
+              <div className="box">
+                <div className="Info">
+                </div>
+              </div>
+          </div>
       </div>
     )
   }

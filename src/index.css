@@ -20,6 +20,12 @@ body {
     color: #fff !important;
 }
 
+.About  {
+    color: #fff !important;
+    margin-top: 25%;
+    text-align: left !important;
+}
+
 .head {
     position: absolute;
     text-align: center;
