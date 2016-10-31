@@ -26,16 +26,17 @@ export default [
          project_url: 'https://slider-puzzle.herokuapp.com/',
          text: 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space. Bobby Fischer was an expert at solving the 15-Puzzle. He had been timed to be able to solve it within 25 seconds',
          tech: ['React.js', 'Material-UI']
-      }, {
-         img: '',
-         mobile_image: '',
-         title: 'Granite Parchment Shears',
-         date: '2016',
-         github_url: 'https://github.com/striking-lunatics/RockPaperScissors',
-         project_url: 'http://granite-parchment-shears.herokuapp.com/',
-         text: 'A two player game of Rock-Paper-Scissors. Create a new game and access code, invite a friend and THROW! Enjoy seamless and instantaneous game play.',
-         tech: ['React.js', 'React Router', 'socket.io', 'express', 'PostgreSQL',  'Bootstrap']
-      }, {
+      },
+      {
+        img: 'http://i.imgur.com/vxP3k1m.gif',
+        mobile_image: '',
+        title: 'Youtube Autocomplete Search Bar',
+        date: '2016',
+        github_url: 'https://github.com/ChrisWiles/YouTube-Material-UI',
+        project_url: 'https://youtube-autocomplete.herokuapp.com/',
+        text: 'Calls googleAutoSuggest when a user types, maps over googles auto suggest data and passes the array to Material UIs AutoComplete component',
+        tech: ['React.js', 'Material-UI', 'Youtube API', 'Google Suggestqueries API']
+     },{
          img: 'http://i.imgur.com/ByQkwVO.jpg',
          mobile_image: 'http://i.imgur.com/aAw02Us.jpg',
          title: 'Gomoku',
@@ -91,7 +92,16 @@ export default [
          text: 'Snake clone',
          role: null,
          tech: ['jQuery', 'HTML5-Canvas']
-      }, {
+      },  {
+         img: '',
+         mobile_image: '',
+         title: 'Granite Parchment Shears',
+         date: '2016',
+         github_url: 'https://github.com/striking-lunatics/RockPaperScissors',
+         project_url: 'http://granite-parchment-shears.herokuapp.com/',
+         text: 'A two player game of Rock-Paper-Scissors. Create a new game and access code, invite a friend and THROW! Enjoy seamless and instantaneous game play.',
+         tech: ['React.js', 'React Router', 'socket.io', 'express', 'PostgreSQL',  'Bootstrap']
+      },{
          img: 'http://i.imgur.com/e8aGCwQ.jpg',
          mobile_image: '',
          title: 'Toy Problems',
