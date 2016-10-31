@@ -10,7 +10,6 @@ body {
     height: 100vh;
 }
 
-
 .Project__Button {
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     color: #fff !important;
@@ -18,11 +17,31 @@ body {
 
 .Project__text {
     color: #fff !important;
+    text-align: left !important;
+    font-size: 17px !important;
 }
 
-.About  {
+.Info {
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Info__center {
+    max-width: 50%;
+}
+
+.Info__link {
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
+    color: #fff !important;
+    margin-top: 20px !important;
+}
+
+.About {
     color: #fff !important;
     margin-top: 25%;
+    font-size: 20px;
     text-align: left !important;
 }
 

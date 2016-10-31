@@ -18,7 +18,7 @@ export default [
             'express'
          ]
       }, {
-         img: 'http://i.imgur.com/MX6DzQ1.gif',
+         img: 'http://i.imgur.com/PTBaev5.gif',
          mobile_image: '',
          title: 'Slider-Puzzle',
          date: '2016',

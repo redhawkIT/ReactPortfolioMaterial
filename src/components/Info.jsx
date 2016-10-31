@@ -1,14 +1,17 @@
-import React, {Component} from 'react'
+import React from 'react'
+import FlatButton from 'material-ui/FlatButton'
 
 const Info = () => (
   <div className="row center-xs">
-      <div className="col-xs-6">
-          <div className="box">
-            <div className="Info">
-
-            </div>
-          </div>
+    <div className="col-xs-6">
+      <div className="box Info">
+        <div className="Info__center">
+          <FlatButton className="Info__link" label="Github" href="https://github.com/ChrisWiles/"/>
+          <FlatButton className="Info__link" label="Linkedin" href="https://www.linkedin.com/in/christopherwiles512"/>
+          <FlatButton className="Info__link" label="Resume" href="https://drive.google.com/open?id=1wJ_zFvz669sdqUCjNdELGPNjHX4pZ_NMPIEuYgZ1mok"/>
+        </div>
       </div>
+    </div>
   </div>
 )
 
