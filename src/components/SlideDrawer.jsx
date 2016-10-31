@@ -7,8 +7,8 @@ import Project from 'material-ui/svg-icons/action/view-module'
 import About from 'material-ui/svg-icons/social/person'
 import Info from 'material-ui/svg-icons/action/info'
 
-const SlideDrawer = ({handleToggle, open}) => (
-  <Drawer
+const SlideDrawer = ({handleToggle, open, setTitle}) => (
+   <Drawer
       width={300}
       docked={false}
       open={open}
@@ -16,23 +16,24 @@ const SlideDrawer = ({handleToggle, open}) => (
       >
       <div className='subHeader'>Christopher Wiles</div>
       <IndexLink to="/" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="Home" leftIcon={<Home/>} />
+        <ListItem primaryText="Home" leftIcon={<Home/>} onTouchTap={e => setTitle('Home')}/>
       </IndexLink>
       <Link to="/projects" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="Projects" leftIcon={<Project/>} />
+        <ListItem primaryText="Projects" leftIcon={<Project/>} onTouchTap={e => setTitle('Projects')}/>
       </Link>
       <Link to="/about" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="About" leftIcon={<About/>} />
+        <ListItem primaryText="About" leftIcon={<About/>} onTouchTap={e => setTitle('About')}/>
       </Link>
       <Link to="/info" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="Info" leftIcon={<Info/>} />
+        <ListItem primaryText="Info" leftIcon={<Info/>} onTouchTap={e => setTitle('Info')}/>
       </Link>
     </Drawer>
 )
 
 SlideDrawer.propTypes = {
   open: PropTypes.bool.isRequired,
-  handleToggle: PropTypes.func.isRequired
+  handleToggle: PropTypes.func.isRequired,
+  setTitle: PropTypes.func.isRequired
 }
 
 export default SlideDrawer
