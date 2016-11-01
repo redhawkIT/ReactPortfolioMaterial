@@ -83,11 +83,11 @@ export default [
       }, {
          img: 'http://i.imgur.com/mOtWsT8.gif',
          mobile_image: '',
-         title: 'Simon Says clone uses HTMLl5 audio features and jQuery. The device has four colored buttons, each producing a particular tone when it is pressed or activated by the device. A round in the game consists of the device lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases.',
+         title: 'Simon Says',
          date: '2015',
          github_url: 'https://github.com/ChrisWiles/Simon-Says',
          project_url: 'http://htmlpreview.github.io/?https://github.com/ChrisWiles/Simon-Says/blob/master/index.html',
-         text: 'Simon Says clone',
+         text: 'Uses HTMLl5 audio features and jQuery. The device has four colored buttons, each producing a particular tone when it is pressed or activated by the device. A round in the game consists of the device lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases.',
          role: null,
          tech: ['jQuery', 'Bootstrap']
       }, {
