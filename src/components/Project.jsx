@@ -6,7 +6,7 @@ const Project = ({text, img, title, tech, github_url, project_url, date}) => (
   <Card style={{backgroundColor: 'none', boxShadow: 'none'}}>
     <CardTitle title={title} titleColor='white' subtitleColor='white' subtitle={tech.join(', ')} />
     <CardMedia>
-      <img src={img} role="presentation"/>
+      <img className="Project__img" src={img} role="presentation"/>
     </CardMedia>
     <CardText className="Project__text">{text}</CardText>
     <CardActions>
