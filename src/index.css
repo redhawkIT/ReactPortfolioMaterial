@@ -10,6 +10,11 @@ body {
     height: 100vh;
 }
 
+.Project__img {
+    min-width: auto !important;
+    width: auto !important;
+}
+
 .Project__Button {
     box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.117647) 0px 1px 4px;
     color: #fff !important;

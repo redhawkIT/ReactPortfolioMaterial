@@ -11,11 +11,19 @@ export default [
          tech: [
             'React.js',
             'MongoDB',
-            'Mongoose',
             'Redux',
             'Bootstrap',
             'Node.js',
-            'express'
+            'express',
+            'lodash',
+            'react-router',
+            'redux-promise',
+            'spotify API',
+            'youtube API',
+            'google maps API',
+            'songkick API',
+            'last FM API',
+            'google Places API'
          ]
       }, {
          img: 'http://i.imgur.com/PTBaev5.gif',
@@ -63,7 +71,7 @@ export default [
          date: '2016',
          github_url: 'https://github.com/ChrisWiles/CharacterFrequency',
          project_url: 'https://character-frequency.herokuapp.com/',
-         text: 'Character Frequency is a cloud-enabled, offline-storage, ReactJS powered data visualizer.',
+         text: 'Character Frequency is a cloud-enabled, offline-storage, ReactJS powered data visualizer. Analyzes text and display the number of times all users have entered it. Data is stored in a Mongo DB and visualized with a bar and pie chart using Victory.js',
          tech: [
             'React.js',
             'Victory.js',
@@ -75,7 +83,7 @@ export default [
       }, {
          img: 'http://i.imgur.com/mOtWsT8.gif',
          mobile_image: '',
-         title: 'Simon Says',
+         title: 'Simon Says clone uses HTMLl5 audio features and jQuery. The device has four colored buttons, each producing a particular tone when it is pressed or activated by the device. A round in the game consists of the device lighting up one or more buttons in a random order, after which the player must reproduce that order by pressing the buttons. As the game progresses, the number of buttons to be pressed increases.',
          date: '2015',
          github_url: 'https://github.com/ChrisWiles/Simon-Says',
          project_url: 'http://htmlpreview.github.io/?https://github.com/ChrisWiles/Simon-Says/blob/master/index.html',
@@ -86,13 +94,24 @@ export default [
          img: 'http://i.imgur.com/xxZ2E29.gif',
          mobile_image: '',
          title: 'Snake',
-         date: '2015',
+         date: '2014',
          github_url: 'https://github.com/ChrisWiles/snake-game',
          project_url: 'http://goo.gl/5hp8X5',
-         text: 'Snake clone',
+         text: 'One of my favorite games of all time - Snake! I wanted to create it from my first day with JavaScript and the nostalgia was worth it!',
          role: null,
          tech: ['jQuery', 'HTML5-Canvas']
-      },  {
+      },
+      {
+         img: 'http://i.imgur.com/Z5VGb4U.jpg',
+         mobile_image: '',
+         title: 'Vanilla JS Calculator',
+         date: '2014',
+         github_url: 'https://github.com/ChrisWiles/Vanilla-JS-Calculator',
+         project_url: 'https://htmlpreview.github.io/?https://github.com/ChrisWiles/Vanilla-JS-Calculator/blob/master/index.html',
+         text: 'A simple calculator built using HTML, CSS and JavaScript.',
+         role: null,
+         tech: ['CSS', 'HTML', 'JavaScript']
+      }, {
          img: '',
          mobile_image: '',
          title: 'Granite Parchment Shears',
