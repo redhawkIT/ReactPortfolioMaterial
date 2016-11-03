@@ -10,6 +10,10 @@ body {
     height: 100vh;
 }
 
+.TechImgs {
+
+}
+
 .Project__img {
     min-width: auto !important;
     width: auto !important;
