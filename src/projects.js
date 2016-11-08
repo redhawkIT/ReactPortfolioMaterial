@@ -57,6 +57,15 @@ export default[
     text : 'Calls googleAutoSuggest when a user types, maps over googles auto suggest data and passes the array to Material UIs AutoComplete component',
     tech : ['React.js', 'Material-UI', 'Youtube API', 'Google Suggestqueries API']
   }, {
+    img : '',
+    mobile_image : '',
+    title : 'React Portfolio',
+    date : '2016',
+    github_url : 'https://github.com/ChrisWiles/ReactPortfolioMaterial',
+    project_url : 'https://chriswiles.github.io/',
+    text : 'I like React and Material Ui so I built my portfolio using it',
+    tech : ['React.js', 'Material-UI']
+  }, {
     img : 'http://i.imgur.com/ByQkwVO.jpg',
     mobile_image : 'http://i.imgur.com/aAw02Us.jpg',
     title : 'Gomoku',
