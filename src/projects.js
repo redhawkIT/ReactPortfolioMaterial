@@ -8,36 +8,36 @@ export default[
     project_url : 'http://melody-map.com/',
     text : 'Discover live music in your area tonight. With Melody Map, you can easily explore artists, venues, and shows happening in your city and beyond. See when your favorite bands are playing, check out that new venue, or give a listen and discover new artists.',
     role : 'Full Stack',
-    tech : [
-      {
-        img: require('./techLogos/react.png')
-      }, {
-        img: require('./techLogos/mongodb.png')
-      }, {
-        img: require('./techLogos/redux.png')
-      }, {
-        img: require('./techLogos/node.png')
-      }, {
-        img: require('./techLogos/bootstrap.png')
-      }
-    ]
-    //  [src\techLogos\bootstrap.png
-    //     'React.js',
-    //     'MongoDB',
-    //     'Redux',
-    //     'Bootstrap',
-    //     'Node.js',
-    //     'express',
-    //     'lodash',
-    //     'react-router',
-    //     'redux-promise',
-    //     'spotify API',
-    //     'youtube API',
-    //     'google maps API',
-    //     'songkick API',
-    //     'last FM API',
-    //     'google Places API'
-    //  ]
+// tech : [
+//   {
+//     img: require('./techLogos/react.png')
+//   }, {
+//     img: require('./techLogos/mongodb.png')
+//   }, {
+//     img: require('./techLogos/redux.png')
+//   }, {
+//     img: require('./techLogos/node.png')
+//   }, {
+//     img: require('./techLogos/bootstrap.png')
+//   }
+// ]
+    tech: [
+        'React',
+        'MongoDB',
+        'Redux',
+        'Bootstrap',
+        'Node',
+        'Express',
+        'lodash',
+        'React Router',
+        'redux-promise',
+        'spotify API',
+        'youtube API',
+        'google maps API',
+        'songkick API',
+        'last FM API',
+        'google Places API'
+     ]
   }, {
     img : 'http://i.imgur.com/PTBaev5.gif',
     mobile_image : '',
@@ -46,7 +46,7 @@ export default[
     github_url : 'https://github.com/ChrisWiles/Slide-Puzzle',
     project_url : 'https://slider-puzzle.herokuapp.com/',
     text : 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space. Bobby Fischer was an expert at solving the 15-Puzzle. He had been timed to be able to solve it within 25 seconds',
-    tech : ['React.js', 'Material-UI']
+    tech : ['React', 'Material-UI', 'Express', 'MongoDB', 'Node']
   }, {
     img : 'http://i.imgur.com/vxP3k1m.gif',
     mobile_image : '',
@@ -55,7 +55,7 @@ export default[
     github_url : 'https://github.com/ChrisWiles/YouTube-Material-UI',
     project_url : 'https://youtube-autocomplete.herokuapp.com/',
     text : 'Calls googleAutoSuggest when a user types, maps over googles auto suggest data and passes the array to Material UIs AutoComplete component',
-    tech : ['React.js', 'Material-UI', 'Youtube API', 'Google Suggestqueries API']
+    tech : ['React', 'Material-UI', 'Youtube API', 'Google Suggestqueries API']
   }, {
     img : '',
     mobile_image : '',
@@ -63,8 +63,8 @@ export default[
     date : '2016',
     github_url : 'https://github.com/ChrisWiles/ReactPortfolioMaterial',
     project_url : 'https://chriswiles.github.io/',
-    text : 'I like React and Material Ui so I built my portfolio using it',
-    tech : ['React.js', 'Material-UI']
+    text : 'Built this portfolio using React and Material UI',
+    tech : ['React', 'Material-UI, React Router']
   }, {
     img : 'http://i.imgur.com/ByQkwVO.jpg',
     mobile_image : 'http://i.imgur.com/aAw02Us.jpg',
@@ -74,7 +74,7 @@ export default[
     project_url : 'https://gomoku-atx.herokuapp.com/',
     text : 'Gomoku is an abstract strategy board game. Also called Gobang or Five in a Row, it is traditionally played with Go pieces (black and white stones) on a go board with 19x19 (15x15) intersections. The winner is the first player to get an unbroken row of five stones horizontally, vertically, or diagonally.',
     role : null,
-    tech : ['React.js', 'socket.io', 'Bootstrap', 'Node.js', 'express']
+    tech : ['React', 'socket.io', 'Bootstrap', 'Node', 'Express']
   }, {
     img : 'http://i.imgur.com/Hn2l7h7.gif',
     mobile_image : '',
@@ -94,11 +94,11 @@ export default[
     project_url : 'https://character-frequency.herokuapp.com/',
     text : 'Character Frequency is a cloud-enabled, offline-storage, ReactJS powered data visualizer. Analyzes text and display the number of times all users have entered it. Data is stored in a Mongo DB and visualized with a bar and pie chart using Victory.js',
     tech : [
-      'React.js',
+      'React',
       'Victory.js',
       'Mongoose',
-      'Node.js',
-      'express',
+      'Node',
+      'Express',
       'Bootstrap'
     ]
   }, {
@@ -140,10 +140,10 @@ export default[
     project_url : 'http://granite-parchment-shears.herokuapp.com/',
     text : 'A two player game of Rock-Paper-Scissors. Create a new game and access code, invite a friend and THROW! Enjoy seamless and instantaneous game play.',
     tech : [
-      'React.js',
+      'React',
       'React Router',
       'socket.io',
-      'express',
+      'Express',
       'PostgreSQL',
       'Bootstrap'
     ]
