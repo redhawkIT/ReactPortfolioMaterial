@@ -1,28 +1,18 @@
+import React from 'react'
+import {Route, IndexRoute} from 'react-router'
+
 import App from './components/App.jsx'
 import Home from './components/Home.jsx'
 import Projects from './components/Projects.jsx'
 import About from './components/About.jsx'
 import Info from './components/Info.jsx'
 
-const routes = {
-  // base component (wrapper for the whole application).
-  component: App,
-  childRoutes: [
-
-    {
-      path: '/',
-      component: Home
-    }, {
-      path: '/projects',
-      component: Projects
-    }, {
-      path: '/about',
-      component: About
-    }, {
-      path: '/info',
-      component: Info
-    }
-  ]
-}
-
-export default routes
+export default (
+  <Route path="/" component={App}>
+    {/* Show the dashboard at / */}
+    <IndexRoute component={Home}/>
+    <Route path="projects" component={Projects}/>
+    <Route path="about" component={About}/>
+    <Route path="info" component={Info}/>
+  </Route>
+)
