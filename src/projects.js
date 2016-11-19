@@ -1,5 +1,23 @@
 export default[
   {
+    img : 'http://i.imgur.com/4o2p9q6.gif',
+    mobile_image : '',
+    title : 'Github Viewer',
+    date : '2016',
+    github_url : 'https://github.com/ChrisWiles/githubViewer',
+    project_url : 'https://github--viewer.herokuapp.com/',
+    text : 'Uses Apollo to connect the client with GitHub’s GraphQL. The queries are saved into the redux store and the UI is rendered with React and Material UI components',
+    role : 'Full Stack',
+    tech: [
+        'Apollo Client',
+        'GitHub GraphQL API',
+        'GraphQL',
+        'Material UI',
+        'React',
+        'Redux'
+     ]
+  },
+  {
     img : 'http://i.imgur.com/ruYOFwT.gif',
     mobile_image : 'http://i.imgur.com/JuEGyoT.jpg',
     title : 'Melody Map',
