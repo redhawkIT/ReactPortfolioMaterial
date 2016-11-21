@@ -10,11 +10,8 @@ injectTapEventPlugin()
 
 const App = () => (
   <MuiThemeProvider>
-    <Router history={browserHistory} routes={routes} />
+    <Router history={browserHistory} routes={routes}/>
   </MuiThemeProvider>
 )
 
-render(
-  <App />,
-  document.getElementById('root')
-)
+render(<App/>,document.getElementById('root'))
