@@ -3,7 +3,6 @@ import Drawer from 'material-ui/Drawer'
 import {IndexLink, Link} from 'react-router'
 import {ListItem} from 'material-ui/List'
 import Home from 'material-ui/svg-icons/action/home'
-import Project from 'material-ui/svg-icons/action/view-module'
 import About from 'material-ui/svg-icons/social/person'
 import Info from 'material-ui/svg-icons/action/info'
 
@@ -18,9 +17,6 @@ const SlideDrawer = ({handleToggle, open, setTitle}) => (
       <IndexLink to="/" className='link' activeClassName="active" onTouchTap={handleToggle}>
         <ListItem primaryText="Home" leftIcon={<Home/>} onTouchTap={e => setTitle('Home')}/>
       </IndexLink>
-      <Link to="/projects" className='link' activeClassName="active" onTouchTap={handleToggle}>
-        <ListItem primaryText="Projects" leftIcon={<Project/>} onTouchTap={e => setTitle('Projects')}/>
-      </Link>
       <Link to="/about" className='link' activeClassName="active" onTouchTap={handleToggle}>
         <ListItem primaryText="About Me" leftIcon={<About/>} onTouchTap={e => setTitle('About')}/>
       </Link>

@@ -55,15 +55,11 @@ body {
 }
 
 .head {
-    position: absolute;
     text-align: center;
-    z-index: 2;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
 }
 
 .Home__Avatar {
+    margin-top: 10%;
     border: 3px solid #fff !important;
 }
 
