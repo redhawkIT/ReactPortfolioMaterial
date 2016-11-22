@@ -19,7 +19,7 @@ const Project = ({text, img, title, tech, github_url, project_url, date}) => (
     </CardMedia>
     <CardText className="Project__text">
       <div className="row center-xs">
-          <div className="col-xs-6">
+          <div className="col-xs-12 col-sm-10 col-md-8 col-lg-6">
               <div className="box">
                   {text}
               </div>
