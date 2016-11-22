@@ -17,7 +17,15 @@ const Project = ({text, img, title, tech, github_url, project_url, date}) => (
     <CardMedia>
       <img className="Project__img" src={img} role="presentation"/>
     </CardMedia>
-    <CardText className="Project__text">{text}</CardText>
+    <CardText className="Project__text">
+      <div className="row center-xs">
+          <div className="col-xs-6">
+              <div className="box">
+                  {text}
+              </div>
+          </div>
+      </div>
+    </CardText>
     <CardActions>
       <FlatButton className="Project__Button" label="Code"  href={github_url}/>
       <FlatButton className="Project__Button" label="Live Demo"  href={project_url}/>
