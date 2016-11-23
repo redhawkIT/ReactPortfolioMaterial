@@ -5,7 +5,7 @@ export default[
     title : 'Github Viewer',
     date : '2016',
     github_url : 'https://github.com/ChrisWiles/githubViewer',
-    project_url : 'https://github--viewer.herokuapp.com/',
+    project_url : 'https://chriswiles.github.io/githubViewer',
     text : 'Uses Apollo to connect the client with GitHub’s GraphQL. The queries are saved into the redux store and the UI is rendered with React and Material UI components',
     role : 'Full Stack',
     tech : [
