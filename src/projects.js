@@ -65,6 +65,15 @@ export default[
     text : 'A sliding puzzle that consists of a frame of numbered square tiles in random order with one tile missing. The n-puzzle is a classical problem for modeling algorithms. The object of the puzzle is to place the tiles in order by making sliding moves that use the empty space. Bobby Fischer was an expert at solving the 15-Puzzle. He had been timed to be able to solve it within 25 seconds',
     tech : ['React', 'Material-UI', 'Express', 'MongoDB', 'Node']
   }, {
+    img : 'http://i.imgur.com/Ic3NdlA.gif',
+    mobile_image : '',
+    title : 'React-todoMVC',
+    date : '2016',
+    github_url : 'https://github.com/ChrisWiles/React-todoMVC',
+    project_url : 'https://chriswiles.github.io/React-todoMVC/',
+    text : 'Todomvc does not have a good Vallina React example, theirs is outdated uses ES5, doesn\'t incorporate best practices and has a convoluted structure. My version uses current best practices such as ES7 Property Initializers ES7 Object Spread Operator (Object.assign()) ES6 Array Spread Operator (Array.concat()) arrow functions and property initializers propTypes',
+    tech : ['React']
+  }, {
     img : 'http://i.imgur.com/Hn2l7h7.gif',
     mobile_image : '',
     title : 'Game of Life',
